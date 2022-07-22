@@ -80,10 +80,7 @@ input {
   font-size: inherit;
   outline: none;
 }
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
+input[class="focus"],
 :focus {
   box-shadow: 1px 1px 3px gray;
   border: 1px solid blue;
@@ -110,4 +107,9 @@ button {
   color: #fff;
   font-size: 1.5rem;
   margin-bottom: 3%;
+}
+p.alert0,
+p.alert1 {
+  color: red;
+  display: none;
 }
